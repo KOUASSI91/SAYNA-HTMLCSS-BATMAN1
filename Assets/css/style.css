@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+    --yellow-color: #ffff00;
+    --light-yellow-color:#f8f184;
+    --Blue-color:#19587D;
+    --Red:#B11313;
+    --Black:#0D0E09;
+    --Withe:#ffffff;
+    --Blackish:#000000;
+    --Grayish:#c4c4c4;
+    --gradient-blue: #19587d99;
+    --Gradient-red:#b11313bb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Black);
+    color: var(--Withe);
+}
+
+nav{ 
+    display: flex;
+}
